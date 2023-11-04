@@ -1,1 +1,1 @@
-# academic-paper-summarizer
+# PDF-Summarizer
