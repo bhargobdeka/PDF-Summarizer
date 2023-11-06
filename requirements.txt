@@ -3,3 +3,21 @@ langchain  # Langchain for secure data storage
 bert-extractive-summarizer==0.5.0  # For text summarization
 nltk  # Natural language processing library
 streamlit
+pypdf
+PyPDF2  # For PDF parsing
+faiss-cpu  # For similarity search
+tiktoken
+unstructured
+numpy
+pillow
+scipy
+pdf2image
+rapidocr-onnxruntime
+chromadb
+htmltemplate
+altair==4
+huggingface-hub==0.14.1
+# uncomment to use instructor embeddings
+InstructorEmbedding==1.0.1
+sentence-transformers==2.2.2
+python-dotenv
