@@ -1,9 +1,8 @@
 # PDF-Summarizer
 
-<!-- ![Houseplant Healthy Logo](houseplant.jpg) -->
-<p align="center">
-  <img src=pdf_read.png width="700px" height="500px" >
-</p>
+## Check out the app
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://pdf-summarizer-app.streamlit.app)
 
 This project shows how to build a chatbot to read your PDF file using Langchain and LLM from OpenAI. The project is hosted using streamlit where you can upload your PDF file.
 
