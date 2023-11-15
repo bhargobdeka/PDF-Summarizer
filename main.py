@@ -19,8 +19,7 @@ from langchain.agents.agent_toolkits import (
 )
 
 # set openai_api key
-openai_api_key = ''
-os.environ['OPENAI_API_KEY'] = openai_api_key
+os.environ['OPENAI_API_KEY'] = st.secrets['OPENAI_API_KEY']
 
 # Create OpenAI LLM object
 llm = OpenAI(temperature=0.9,verbose=True)

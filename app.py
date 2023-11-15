@@ -2,7 +2,8 @@ import streamlit as st
 import os
 import sys
 
-from dotenv import load_dotenv # for loading environment variables
+# from dotenv import load_dotenv # for loading environment variables
+os.environ['OPENAI_API_KEY'] = st.secrets['OPENAI_API_KEY']
 
 from pypdf import PdfReader
 from langchain.text_splitter import CharacterTextSplitter
@@ -79,7 +80,7 @@ def handle_userinput(user_question):
 
 
 def main():
-    load_dotenv() # load environment variables
+    # load_dotenv() # load environment variables
     st.set_page_config(page_title='chat with PDF', page_icon='random', layout='wide', initial_sidebar_state='auto')
     st.write(css, unsafe_allow_html=True)
     
